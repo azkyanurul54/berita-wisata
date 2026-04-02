@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="id"> 
+ <head></head> 
+ <body> 
+  <meta charset="UTF-8"> 
+  <title>Explore Indonesia</title> 
+  <style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+/* HEADER */
+header {
+    padding: 60px 20px;
+    text-align: center;
+    background: url('https://digitaltravelcouple.com/wp-content/uploads/2022/05/nusa-penida-beaches-1.jpg') center/cover;
+}
+
+header h1 {
+    font-size: 45px;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: center;
+    background: #020617;
+    padding: 12px;
+}
+
+nav a {
+    color: #38bdf8;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #22c55e;
+}
+
+/* GRID */
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 30px;
+}
+
+/* CARD */
+.card {
+    background: #1e293b;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.content {
+    padding: 15px;
+}
+
+.content h2 {
+    margin: 0;
+    color: #22c55e;
+}
+
+.content p {
+    font-size: 14px;
+    opacity: 0.85;
+}
+
+/* BUTTON */
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: #38bdf8;
+    color: black;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #22c55e;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #020617;
+    font-size: 13px;
+}
+</style> 
+  <header> 
+   <h1>NUSA PENIDA</h1> 
+   <p>Temukan keindahan alam di Nusa Penida</p> 
+  </header> 
+  <nav> <a href="#">Home</a> <a href="#destinasi">Destinasi</a> <a href="#populer">Populer</a> 
+   <div id="destinasi" class="wrapper"> 
+   </div>
+  </nav> 
+  <div class="wrapper"> <!-- Card 1 --> 
+   <div class="card"> 
+    <img src="https://finnsbeachclub.com/wp-content/uploads/2023/12/beautiful-tropical-white-sand-beach-at-diamond-bea-2023-11-27-05-18-14-utc.jpg"> 
+    <div class="content"> 
+     <h2>Pantai Diamond Beach </h2> 
+     <a href="#" class="btn">Lihat Detail</a> 
+     <p>Diamond Beach adalah destinasi wisata pantai ikonik di Nusa Penida, Bali, yang terkenal dengan tebing kapur menjulang, tangga tebing dramatis, dan pasir putih bersih.
+         Dinamai "Diamond" karena formasi batuan di pantai ini menyerupai bentuk permata yang berkilau. Terletak di timur Nusa Penida, tempat ini menawarkan
+         pemandangan laut biru jernih dan spot foto Instagramable.</p> 
+   </div> <!-- Card 2 --> 
+   <div class="card"> 
+    <img src="https://www.gotravelaindonesia.com/wp-content/uploads/angels-billabong-nusa-penida.jpg">
+    <div class="content">  
+     <h2>Angel's Billabong</h2>
+     <a href="#" class="btn">Lihat Detail</a> 
+     <p>Angel's Billabong adalah kolam renang alami (infinity pool) yang terbentuk di ceruk tebing pesisir barat Nusa Penida, 
+        Bali. Tempat ini terkenal karena airnya yang jernih, berwarna hijau tosca, dan berbatasan langsung dengan laut lepas,
+        menciptakan pemandangan layaknya "kolam bidadari". </p> 
+   </div> <!-- Card 3 --> 
+   <div class="card"> 
+    <img src="https://cdn.prod.website-files.com/66fab24d6dde4d79b3b50865/679b498a2ba4e00fb4ecac62_Kelingking%20Beach%20Itinerary-p-1080.webp">
+    <div class="content"> 
+     <h2>Kelingking Beach </h2>
+      <a href="#" class="btn">Lihat Detail</a>
+     <p>Kelingking Beach adalah destinasi ikonik di Desa Bunga Mekar, Nusa Penida bagian barat,
+        Bali, yang terkenal dengan tebing curam berbentuk dinosaurus T-Rex. Pantai ini menawarkan pemandangan
+        spektakuler dengan pasir putih dan air biru jernih.</p>  
+    </div> 
+   </div> 
+   </div> <!-- Card 4 --> 
+   <div class="card"> 
+    <img src="https://digitaltravelcouple.com/wp-content/uploads/2022/05/broken-beach-nusa-penida-2018-drone-topdown.jpg?ezimgfmt=rs:767x479/rscb19/ng:webp/ngcb19"> 
+    <div class="content"> 
+     <h2>Broken Beach</h2> 
+     <a href="#" class="btn">Lihat Detail</a> 
+     <p>Broken Beach, atau dikenal lokal sebagai Pasih Uug, adalah destinasi wisata tebing tebing melingkar
+         raksasa dengan lubang di tengahnya yang terbentuk akibat abrasi air laut selama ribuan tahun, berlokasi
+         di barat daya Pulau Nusa Penida, Bali. Disebut "rusak" (broken) karena tebing kapur runtuh dan menciptakan
+         terowongan alami yang memungkinkan air laut masuk, membentuk kolam renang alami melingkar.</p> 
+    </div> 
+   </div>  
+  </div>
+ </body>
+</html>
